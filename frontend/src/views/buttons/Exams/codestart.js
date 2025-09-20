@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import './codstart.css' // Add CSS for styling
+import './codest.css' // Add CSS for styling
 
 function CodeStartPage() {
   const navigate = useNavigate()

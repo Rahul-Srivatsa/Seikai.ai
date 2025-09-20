@@ -24,7 +24,7 @@ const Login = () => {
   const handleLogin = () => {
     event.preventDefault()
     axios
-      .post('http://localhost:5000/api/users/signin', {
+      .post('https://seikai-ai.onrender.com/api/users/signin', {
         email: email,
         password: password,
       })

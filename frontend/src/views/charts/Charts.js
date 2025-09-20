@@ -23,7 +23,9 @@ const Charts = () => {
         return
       }
       try {
-        const response = await axios.get(`http://localhost:5000/api/user-performance/${userId}`)
+        const response = await axios.get(
+          `https://seikai-ai.onrender.com/api/user-performance/${userId}`,
+        )
         const performanceData = response.data
         console.log('Performance Data:', performanceData)
         if (Array.isArray(performanceData)) {

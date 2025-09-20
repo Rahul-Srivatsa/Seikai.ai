@@ -20,7 +20,7 @@ function Exam() {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/questions') // Adjust the URL based on your backend
+        const response = await axios.get('https://seikai-ai.onrender.com/api/questions') // Adjust the URL based on your backend
         setQuestions(response.data) // Populate questions state
         setResponses(Array(response.data.length).fill(null)) // Initialize responses array
         setLoading(false) // Stop loading
