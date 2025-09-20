@@ -1,5 +1,5 @@
 import React from 'react'
-import './ExamCard.css' // Import the CSS file
+import './examcard.css' // Import the CSS file
 
 import { useNavigate } from 'react-router-dom'
 
