@@ -25,7 +25,7 @@ const Register = () => {
   const handleRegister = (event) => {
     event.preventDefault()
     axios
-      .post('https://seikai-ai.onrender.com/users/signup', {
+      .post('https://seikai-ai.onrender.com/api/users/signup', {
         name: name,
         email: email,
         password: password,
